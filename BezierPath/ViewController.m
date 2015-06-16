@@ -53,7 +53,7 @@
 {
     //自定义的进度条
     WMCircleProgressView *progress = [[WMCircleProgressView alloc] initWithFrame:CGRectMake(20, 20, 200, 200)];
-    //    progress.center = self.view.center;
+    progress.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:progress];
     progress.trackColor = [UIColor blackColor];
     progress.progressColor = [UIColor orangeColor];
